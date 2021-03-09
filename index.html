@@ -1,12 +1,19 @@
 <html>
    
     <style>
+         :root {
+             --searchbox-height:25px;
+             --searchbox-width: 800px;
+         }
+         .body {
+             font-family: Arial, Helvetica, sans-serif;
+         }
          .search-box {
            padding: 0px 0px 0px 0px;
-           margin: 0px 560px 463px 560px;
+           margin: 0px 560px 450px 560px;
            border-style: solid;
            border-color: black;
-           width: 800px;
+           width: var(--searchbox-width);
          }
           .logo {
             margin: 300px 560px 0px 560px;
@@ -35,13 +42,13 @@
            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/368px-Google_2015_logo.svg.png">
        </div>
        <div class="search-box">
-           <input type="text" placeholder="Search" style="height: 25px; width: 800px;">
+           <input type="text" placeholder="Search" style="height: var(--searchbox-height); width: var(--searchbox-width);">
        </div>
        <div class="bottom-navabar">
            <a href="https://about.google/?utm_source=google-IN&utm_medium=referral&utm_campaign=hp-footer&fg=1">About Google</a>
            <a href="https://ads.google.com/intl/en_in/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Adevrtising</a>
            <a href="https://www.google.com/intl/en_in/business/">Business</a>
            <a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a>
-           </div>
+       </div>
     </body>
 </html>
